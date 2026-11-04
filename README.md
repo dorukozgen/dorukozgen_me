@@ -9,7 +9,7 @@ Designed with a warm, minimalist editorial aesthetic inspired by Sergey Bunas â€
 - **Framework**: Next.js App Router (via vinext)
 - **Styling**: Tailwind CSS
 - **Typography**: Instrument Serif, Inter, JetBrains Mono
-- **Edge Deployment**: Cloudflare Workers
+- **Edge Deployment**: Cloudflare Workers (via `cf` CLI & `cloudflare.config.ts`)
 - **Package Manager**: Bun
 
 ## Development

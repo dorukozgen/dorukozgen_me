@@ -25,9 +25,9 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
+    "dev": "cf dev",
+    "build": "cf build",
     "start": "vite preview",
-    "deploy": "vinext-cloudflare deploy"
+    "deploy": "cf deploy"
   }
 }

@@ -180,12 +180,9 @@ export default function Home() {
         <div className="mx-auto flex max-w-4xl items-center justify-between px-6 h-14">
           <a
             href="/"
-            className="flex items-center gap-2 group text-[14px] font-medium tracking-tight text-[#1c1917]"
+            className="font-mono text-xs font-medium uppercase tracking-wider text-[#1c1917] hover:text-[#ea580c] transition-colors"
           >
-            <span className="font-serif italic text-lg text-[#1c1917]">dö</span>
-            <span className="font-mono text-xs uppercase tracking-wider text-[#78716c] group-hover:text-[#1c1917] transition-colors">
-              / doruk özgen
-            </span>
+            doruk özgen
           </a>
 
           <nav className="flex items-center gap-1 sm:gap-2">
@@ -236,11 +233,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="space-y-2 border-t border-[#e7e5e4] pt-4 font-mono text-[11px] text-[#78716c]">
-                <div className="flex items-center gap-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                  <span className="text-[#44403c]">Available for projects</span>
-                </div>
+              <div className="border-t border-[#e7e5e4] pt-4 font-mono text-[11px] text-[#78716c]">
                 <div className="flex items-center gap-2 text-[#78716c]">
                   <span>📍</span>
                   <span>{profile.location}</span>
